@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right bottom,black,  teal, black);
+}
+.Left{
+    width: 20%;
+    height: 100vh;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    /* background-color: seagreen ; */
+    position: fixed;
+    float: left;
+}
+.leftwrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* background-color: green; */
+}
+.Avatarhold{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    /* background-color: yellow; */
+}
+.avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.Info{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    /* background-color: yellowgreen; */
+    cursor: pointer;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px; 
+    cursor: pointer;
+}
+.quote{
+    margin-top: 30px;
+}
+.playlist{
+    width: 100%;
+    height: 40px;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.Iconholder{
+    width: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+.Right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 0 0 20%;
+    /* background-color:gray; */
+}
+.rightwrapper{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: chartreuse; */
+}
+.Title{
+    width: 83%;
+    height: 10%;
+    margin-top: 20px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.search{
+    width: 15px; 
+    height: 15px;
+}
+.Cardholder{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: violet; */
+}
+.Cards{
+    width: 220px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Imageholder{
+    width:  220px;
+    height:  60%;
+    /* background-color: green; */
+}
+.Image{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0  0;
+    /* background-color: green; */
+}
+.Textholder{
+    width: 220px;
+    height: 40%;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
